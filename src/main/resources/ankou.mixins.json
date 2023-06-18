@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "luckius.ankou.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemEntityMixin",
+    "ItemMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

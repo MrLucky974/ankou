@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/totem_of_undying"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "dimension": 0
+      },
+      "model": "minecraft:item/totem_of_undying"
+    },
+    {
+      "predicate": {
+        "dimension": 0.1
+      },
+      "model": "ankou:item/totem_of_undying_nether"
+    },
+    {
+      "predicate": {
+        "dimension": 0.2
+      },
+      "model": "ankou:item/totem_of_undying_ender"
+    }
+  ]
+}

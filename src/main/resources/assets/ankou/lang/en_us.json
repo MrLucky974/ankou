@@ -1,0 +1,44 @@
+{
+  "itemGroup.ankou.main_group": "Ankou",
+
+  "item.ankou.totem_of_undying.linked": {
+    "text": "Linked",
+    "color": "purple",
+    "italic": true
+  },
+  "item.ankou.totem_of_undying.linkable": {
+    "text": "Linkable",
+    "color": "purple",
+    "italic": true
+},
+  "item.ankou.totem_of_undying.linked_position": [
+    "Position: (",
+    { "index": 0 },
+    ", ",
+    { "index": 1 },
+    ", ",
+    { "index": 2 },
+    ")"
+  ],
+  "item.ankou.totem_of_undying.linked_dimension": [
+    { "text": "Dimension: ", "color": "yellow" },
+    { "index": 0, "color": "yellow", "italic": true }
+  ],
+  "item.ankou.totem_of_undying.lodestone_destroyed": "Your lodestone was missing or obstructed.",
+
+  "text.config.ankou_config.section.enchantments": "Enchantments",
+  "text.config.ankou_config.section.totem_of_undying": "Totem of Undying",
+
+  "text.config.ankou_config.option.defaultDespawnDelay": "Default item despawn delay",
+  "text.config.ankou_config.option.defaultDespawnDelay.tooltip": "How much time before items despawn by default (in ticks).",
+
+  "text.config.ankou_config.category.totemEffects": "Totem Effects",
+  "text.config.ankou_config.option.totemEffects.fireProtection": "Fire Protection",
+  "text.config.ankou_config.option.totemEffects.fireProtection.tooltip": "Add a short duration fire resistance potion effect when saved from fire related damage sources.",
+
+  "text.config.ankou_config.option.isLinkable": "Is Linkable",
+  "text.config.ankou_config.option.isLinkable.tooltip": "Enable the ability to link the totem to a lodestone, making the player teleport to it when used.",
+
+  "enchantment.ankou.permanance": "Permanance",
+  "enchantment.ankou.soulbound": "Soulbound"
+}
